@@ -1,9 +1,0 @@
-<img [src]="user.photo" />
-<h2>First Name: {{user.firstName}} </h2>
-<h2>Last Name: {{user.lastName}}</h2>
-<div><p [hidden] = "isShow"><b>Age:</b>  {{user.age}}</p></div>
-<div><p id="new-input-text"><b>Your quotation goes here:</b> {{value}}</p></div>
-<div><b>Quotation:</b>&nbsp; <input id="input-form" [(ngModel)] = "value"></div>
-<p>&nbsp;</p>
-<div class="bottom-line"><button (click) = toggleDisplay() type = "button">Hide or show age</button></div>
-
